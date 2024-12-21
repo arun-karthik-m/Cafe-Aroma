@@ -1,12 +1,30 @@
 import { useState } from "react";
 
 const images = [
-  { src: "/placeholder.svg", alt: "Coffee shop interior" },
-  { src: "/placeholder.svg", alt: "Latte art" },
-  { src: "/placeholder.svg", alt: "Coffee beans" },
-  { src: "/placeholder.svg", alt: "Pastries" },
-  { src: "/placeholder.svg", alt: "Barista at work" },
-  { src: "/placeholder.svg", alt: "Coffee brewing" },
+  {
+    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
+    alt: "Coffee shop interior with wooden tables and chairs"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1511920170033-f8396924c348",
+    alt: "Beautiful latte art with heart pattern"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1447933601403-0c6688de566e",
+    alt: "Freshly roasted coffee beans"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94",
+    alt: "Assorted pastries and desserts"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
+    alt: "Barista carefully preparing coffee"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31",
+    alt: "Coffee brewing process"
+  },
 ];
 
 const Gallery = () => {
