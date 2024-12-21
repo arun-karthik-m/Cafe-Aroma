@@ -2,10 +2,6 @@ import { useState } from "react";
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
-    alt: "Coffee shop interior with wooden tables and chairs"
-  },
-  {
     src: "https://images.unsplash.com/photo-1511920170033-f8396924c348",
     alt: "Beautiful latte art with heart pattern"
   },
@@ -14,17 +10,13 @@ const images = [
     alt: "Freshly roasted coffee beans"
   },
   {
-    src: "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94",
-    alt: "Assorted pastries and desserts"
-  },
-  {
     src: "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
     alt: "Barista carefully preparing coffee"
   },
   {
     src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31",
     alt: "Coffee brewing process"
-  },
+  }
 ];
 
 const Gallery = () => {
@@ -36,7 +28,7 @@ const Gallery = () => {
         <h2 className="text-4xl font-bold text-coffee-secondary text-center mb-16">
           Our Gallery
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {images.map((image, index) => (
             <div
               key={index}
