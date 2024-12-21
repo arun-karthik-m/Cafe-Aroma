@@ -5,18 +5,18 @@ const menuItems = [
     category: "Hot Coffee",
     icon: Coffee,
     items: [
-      { name: "Espresso", price: "$3.50", description: "Pure and intense" },
-      { name: "Cappuccino", price: "$4.50", description: "Classic Italian style" },
-      { name: "Latte", price: "$4.75", description: "Smooth and creamy" },
+      { name: "Espresso", price: "₹215", description: "Pure and intense" },
+      { name: "Cappuccino", price: "₹240", description: "Classic Italian style" },
+      { name: "Latte", price: "₹235", description: "Smooth and creamy" },
     ],
   },
   {
     category: "Cold Drinks",
     icon: CupSoda,
     items: [
-      { name: "Iced Coffee", price: "$4.00", description: "Refreshingly bold" },
-      { name: "Cold Brew", price: "$4.50", description: "Smooth and strong" },
-      { name: "Frappuccino", price: "$5.50", description: "Blended to perfection" },
+      { name: "Iced Coffee", price: "₹170", description: "Refreshingly bold" },
+      { name: "Cold Brew", price: "₹280", description: "Smooth and strong" },
+      { name: "Frappuccino", price: "₹315", description: "Blended to perfection" },
     ],
   },
 ];
