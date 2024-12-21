@@ -1,5 +1,4 @@
-import { Coffee, ArrowRight } from "lucide-react";
-import { Button } from "./ui/button";
+import { Coffee } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -14,15 +13,6 @@ const Hero = () => {
             Experience the art of coffee crafting in every cup. Join us for an unforgettable
             journey through flavors and aromas.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button className="bg-coffee-primary text-coffee-secondary hover:bg-coffee-dark">
-              Order Now
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button variant="outline" className="border-coffee-primary text-coffee-primary hover:bg-coffee-primary hover:text-coffee-secondary">
-              View Menu
-            </Button>
-          </div>
         </div>
       </div>
     </section>
