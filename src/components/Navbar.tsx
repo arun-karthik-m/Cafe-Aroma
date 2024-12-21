@@ -12,6 +12,13 @@ const Navbar = () => {
     { name: "Contact", href: "#contact" },
   ];
 
+  const scrollToMenu = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const menuSection = document.getElementById('menu');
+    menuSection?.scrollIntoView({ behavior: 'smooth' });
+    setIsOpen(false); // Close mobile menu if open
+  };
+
   return (
     <nav className="fixed w-full bg-coffee-secondary/90 backdrop-blur-sm z-50 py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
@@ -31,7 +38,10 @@ const Navbar = () => {
               {item.name}
             </a>
           ))}
-          <Button className="bg-coffee-primary text-coffee-secondary hover:bg-coffee-dark">
+          <Button 
+            onClick={scrollToMenu}
+            className="bg-coffee-primary text-coffee-secondary hover:bg-coffee-dark"
+          >
             Order Now
           </Button>
         </div>
@@ -59,7 +69,10 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <Button className="bg-coffee-primary text-coffee-secondary hover:bg-coffee-dark w-full">
+            <Button 
+              onClick={scrollToMenu}
+              className="bg-coffee-primary text-coffee-secondary hover:bg-coffee-dark w-full"
+            >
               Order Now
             </Button>
           </div>
