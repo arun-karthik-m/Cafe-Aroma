@@ -10,8 +10,8 @@ const images = [
     alt: "Freshly roasted coffee beans"
   },
   {
-    src: "https://images.unsplash.com/photo-1516627145497-ae6968895b74",
-    alt: "Barista carefully preparing coffee"
+    src: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+    alt: "Coffee being poured into cup"
   },
   {
     src: "https://images.unsplash.com/photo-1442512595331-e89e73853f31",
