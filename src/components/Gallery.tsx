@@ -3,7 +3,6 @@ import { useState } from "react";
 const images = [
   {
     src: "https://images.unsplash.com/photo-1511920170033-f8396924c348",
-    alt: "Beautiful latte art with heart pattern"
   },
   {
     src: "https://images.unsplash.com/photo-1447933601403-0c6688de566e",
