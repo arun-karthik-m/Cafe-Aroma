@@ -44,9 +44,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li>123 Coffee Street</li>
-              <li>San Francisco, CA 94110</li>
-              <li>+1 (555) 123-4567</li>
+              <li>Shop No 17,Ground Floor</li>
+              <li>VR Mall,Chennai-600040</li>
+              <li>1860 266 0010</li>
               <li>hello@cafearoma.com</li>
             </ul>
           </div>
