@@ -17,9 +17,9 @@ const Contact = () => {
                   Visit Us
                 </h3>
                 <p className="text-coffee-text">
-                  123 Coffee Street
-                  <br />
-                  San Francisco, CA 94110
+                  Shop No 17, 
+                  Ground Floor, VR Mall, 
+                  Anna Nagar West, Chennai, Tamil Nadu 600040
                 </p>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold text-coffee-primary mb-2">
                   Call Us
                 </h3>
-                <p className="text-coffee-text">+1 (555) 123-4567</p>
+                <p className="text-coffee-text">1860 266 0010</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
